@@ -18,13 +18,13 @@ const ServiceDetail = ({ title, description, image, features }: {
           className="w-full h-auto object-cover rounded-lg shadow-lg"
         />
       </div>
-      
+
       <div className={`lg:order-${title.includes('Reception') || title.includes('Event') ? '1' : '2'}`}>
         <h2 className="heading-lg mb-6">{title}</h2>
         <p className="text-neutral-700 mb-6">
           {description}
         </p>
-        
+
         <ul className="space-y-3 mb-8">
           {features.map((feature, index) => (
             <li key={index} className="flex items-start">
@@ -37,7 +37,7 @@ const ServiceDetail = ({ title, description, image, features }: {
             </li>
           ))}
         </ul>
-        
+
         <a href="/contact" className="btn-primary">
           Inquire About This Service
         </a>
@@ -51,7 +51,7 @@ const ServicesPage = () => {
     {
       title: "Wedding Mandaps",
       description: "Our custom-designed mandaps are the centerpiece of any Indian wedding ceremony. We create stunning structures that blend traditional elements with your personal style, ensuring a beautiful and meaningful setting for your sacred vows.",
-      image: "https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+      image: "https://www.theknot.com/tk-media/images/b4839e70-d188-11e4-be0a-22000aa61a3e~rs_1094.h",
       features: [
         "Custom design consultations to match your vision",
         "Integration of traditional and modern elements",
@@ -105,7 +105,7 @@ const ServicesPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-12 bg-neutral-50">
         <div className="container-custom text-center">
@@ -115,7 +115,7 @@ const ServicesPage = () => {
           </p>
         </div>
       </section>
-      
+
       {/* Services Details */}
       <section className="py-8">
         <div className="container-custom">
@@ -127,7 +127,7 @@ const ServicesPage = () => {
           ))}
         </div>
       </section>
-      
+
       {/* Booking Section */}
       <section className="py-16 bg-neutral-50">
         <div className="container-custom text-center max-w-3xl mx-auto">
@@ -140,7 +140,7 @@ const ServicesPage = () => {
           </a>
         </div>
       </section>
-      
+
       <Footer />
     </div>
   );
