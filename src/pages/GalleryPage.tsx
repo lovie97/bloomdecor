@@ -14,12 +14,12 @@ const categories = ['All', 'Mandaps', 'Receptions', 'Sangeet', 'Mehndi'];
 
 const galleryItems: GalleryItem[] = [
   {
-    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578591157159-JNXYROBZUUC7CD6NUEC9/FB+-+M%26A-432.jpg?format=1000w',
+    image: 'https://www.theknot.com/tk-media/images/b4839e70-d188-11e4-be0a-22000aa61a3e~rs_1094.h',
     category: 'Mandaps',
     title: 'Traditional Red Mandap'
   },
   {
-    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578585784662-3I73W0I99L1OM42G96W8/SM+-+06A+-+Pre-Reception+Portraits-140.jpg?format=1000w',
+    image: 'https://i0.wp.com/blog.shaadishop.co/wp-content/uploads/2015/09/1002-sp_newport_beach_marriott_indian_wedding_photography.jpg?resize=720%2C480&ssl=1',
     category: 'Receptions',
     title: 'Elegant Ballroom Setup'
   },
@@ -49,7 +49,7 @@ const galleryItems: GalleryItem[] = [
     title: 'Vibrant Dance Floor'
   },
   {
-    image: 'https://images.unsplash.com/photo-1516146857603-eba968acff73?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://seeksikh.com/wp-content/uploads/2018/01/vitaliy-lyubezhanin-385454.jpg',
     category: 'Mehndi',
     title: 'Intimate Mehndi Celebration'
   },
@@ -64,7 +64,7 @@ const galleryItems: GalleryItem[] = [
     title: 'Luxury Hotel Ballroom'
   },
   {
-    image: 'https://images.unsplash.com/photo-1509967419530-da38b4704bc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://cdn0.weddingwire.in/article/1986/original/1920/jpg/16891-indian-wedding-decorations-ferns-n-petals-florist-and-gift-shop-janakpuri-indian-wedding-decorations-decorations-for-reception-party.webp',
     category: 'Sangeet',
     title: 'Festive Night Arrangement'
   },

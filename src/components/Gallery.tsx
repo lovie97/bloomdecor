@@ -14,12 +14,12 @@ const categories = ['All', 'Mandaps', 'Receptions', 'Sangeet', 'Mehndi'];
 
 const galleryItems: GalleryItemProps[] = [
   {
-    image: 'https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://www.theknot.com/tk-media/images/b4839e70-d188-11e4-be0a-22000aa61a3e~rs_1094.h',
     category: 'Mandaps',
     title: 'Traditional Red Mandap'
   },
   {
-    image: 'https://images.unsplash.com/photo-1604534293147-530c9a55a10c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://i0.wp.com/blog.shaadishop.co/wp-content/uploads/2015/09/1002-sp_newport_beach_marriott_indian_wedding_photography.jpg?resize=720%2C480&ssl=1',
     category: 'Receptions',
     title: 'Elegant Ballroom Setup'
   },
@@ -68,8 +68,8 @@ const GalleryItem = ({ image, category, title }: GalleryItemProps) => {
 const Gallery = () => {
   const [activeFilter, setActiveFilter] = useState('All');
 
-  const filteredItems = activeFilter === 'All' 
-    ? galleryItems 
+  const filteredItems = activeFilter === 'All'
+    ? galleryItems
     : galleryItems.filter(item => item.category === activeFilter);
 
   return (
