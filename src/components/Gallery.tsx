@@ -14,32 +14,32 @@ const categories = ['All', 'Mandaps', 'Receptions', 'Sangeet', 'Mehndi'];
 
 const galleryItems: GalleryItemProps[] = [
   {
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-mandap-1.jpg',
     category: 'Mandaps',
     title: 'Traditional Red Mandap'
   },
   {
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e331c5053e?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-reception-1.jpg',
     category: 'Receptions',
     title: 'Elegant Ballroom Setup'
   },
   {
-    image: 'https://images.unsplash.com/photo-1611089809499-62301b8a59cc?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-sangeet-1.jpg',
     category: 'Sangeet',
     title: 'Colorful Night Celebration'
   },
   {
-    image: 'https://images.unsplash.com/photo-1562572766-953b8ab55ae1?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-mehndi-1.jpg',
     category: 'Mehndi',
     title: 'Garden Mehndi Setup'
   },
   {
-    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1469&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-reception-2.jpg',
     category: 'Receptions',
     title: 'Modern Minimalist Reception'
   },
   {
-    image: 'https://images.unsplash.com/photo-1520869578617-6b4832ef5e28?q=80&w=1470&auto=format&fit=crop',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2022/03/gallery-mandap-2.jpg',
     category: 'Mandaps',
     title: 'Contemporary White Mandap'
   },
