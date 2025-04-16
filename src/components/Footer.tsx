@@ -1,7 +1,6 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Instagram, Facebook, Pinterest, Mail } from 'lucide-react';
+import { Instagram, Facebook, Mail, ExternalLink } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -41,7 +40,7 @@ const Footer = () => {
                 className="text-neutral-600 hover:text-gold transition-colors"
                 aria-label="Pinterest"
               >
-                <Pinterest size={20} />
+                <ExternalLink size={20} />
               </a>
             </div>
           </div>
