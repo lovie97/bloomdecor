@@ -29,7 +29,7 @@ const galleryItems: GalleryItem[] = [
     title: 'Colorful Night Celebration'
   },
   {
-    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578676351022-MT6J0CF8DXFXS7QWXT1A/Shivani+%2B+Varun-178.jpg?format=1000w',
+    image: 'https://d397bfy4gvgcdm.cloudfront.net/229521-RAGartistry-1163-698J3.jpeg',
     category: 'Mehndi',
     title: 'Garden Mehndi Setup'
   },

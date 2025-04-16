@@ -23,8 +23,8 @@ const ServiceCard = ({ title, description, image, link }: ServiceProps) => {
       <div className="p-6">
         <h3 className="heading-sm mb-2">{title}</h3>
         <p className="text-neutral-600 mb-4">{description}</p>
-        <Link 
-          to={link} 
+        <Link
+          to={link}
           className="inline-flex items-center text-neutral-800 hover:text-gold transition-colors"
         >
           Learn more <ArrowRight size={16} className="ml-2" />
@@ -39,7 +39,7 @@ const Services = () => {
     {
       title: 'Wedding Mandaps',
       description: 'Custom designed mandaps that blend tradition with your personal style.',
-      image: 'https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+      image: 'https://www.theknot.com/tk-media/images/b4839e70-d188-11e4-be0a-22000aa61a3e~rs_1094.h',
       link: '/services#mandaps'
     },
     {

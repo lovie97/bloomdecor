@@ -29,7 +29,7 @@ const galleryItems: GalleryItemProps[] = [
     title: 'Colorful Night Celebration'
   },
   {
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://d397bfy4gvgcdm.cloudfront.net/229521-RAGartistry-1163-698J3.jpeg',
     category: 'Mehndi',
     title: 'Garden Mehndi Setup'
   },
