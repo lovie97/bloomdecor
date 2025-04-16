@@ -14,12 +14,12 @@ const categories = ['All', 'Mandaps', 'Receptions', 'Sangeet', 'Mehndi'];
 
 const galleryItems: GalleryItem[] = [
   {
-    image: 'https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578591157159-JNXYROBZUUC7CD6NUEC9/FB+-+M%26A-432.jpg?format=1000w',
     category: 'Mandaps',
     title: 'Traditional Red Mandap'
   },
   {
-    image: 'https://images.unsplash.com/photo-1604534293147-530c9a55a10c?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578585784662-3I73W0I99L1OM42G96W8/SM+-+06A+-+Pre-Reception+Portraits-140.jpg?format=1000w',
     category: 'Receptions',
     title: 'Elegant Ballroom Setup'
   },
@@ -29,7 +29,7 @@ const galleryItems: GalleryItem[] = [
     title: 'Colorful Night Celebration'
   },
   {
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
+    image: 'https://images.squarespace-cdn.com/content/v1/5e15edfbab30284646769683/1578676351022-MT6J0CF8DXFXS7QWXT1A/Shivani+%2B+Varun-178.jpg?format=1000w',
     category: 'Mehndi',
     title: 'Garden Mehndi Setup'
   },
@@ -79,8 +79,8 @@ const GalleryPage = () => {
   const [activeFilter, setActiveFilter] = useState('All');
   const [activeItem, setActiveItem] = useState<GalleryItem | null>(null);
 
-  const filteredItems = activeFilter === 'All' 
-    ? galleryItems 
+  const filteredItems = activeFilter === 'All'
+    ? galleryItems
     : galleryItems.filter(item => item.category === activeFilter);
 
   const openLightbox = (item: GalleryItem) => {
@@ -96,7 +96,7 @@ const GalleryPage = () => {
   return (
     <div className="flex flex-col min-h-screen">
       <Navbar />
-      
+
       {/* Hero Section */}
       <section className="pt-24 pb-12 bg-neutral-50">
         <div className="container-custom text-center">
@@ -106,7 +106,7 @@ const GalleryPage = () => {
           </p>
         </div>
       </section>
-      
+
       {/* Gallery */}
       <section className="py-12">
         <div className="container-custom">
@@ -129,8 +129,8 @@ const GalleryPage = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
             {filteredItems.map((item, index) => (
-              <div 
-                key={index} 
+              <div
+                key={index}
                 className="group relative overflow-hidden cursor-pointer"
                 onClick={() => openLightbox(item)}
               >
@@ -153,7 +153,7 @@ const GalleryPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Call to Action */}
       <section className="py-16 bg-neutral-50">
         <div className="container-custom text-center max-w-3xl mx-auto">
@@ -166,15 +166,15 @@ const GalleryPage = () => {
           </a>
         </div>
       </section>
-      
+
       {/* Lightbox */}
       {activeItem && (
-        <div 
+        <div
           className="fixed inset-0 bg-black/90 z-50 flex items-center justify-center p-4"
           onClick={closeLightbox}
         >
           <div className="relative max-w-5xl w-full" onClick={(e) => e.stopPropagation()}>
-            <button 
+            <button
               className="absolute -top-12 right-0 text-white hover:text-gold-light transition-colors"
               onClick={closeLightbox}
             >
@@ -182,9 +182,9 @@ const GalleryPage = () => {
                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M6 18L18 6M6 6l12 12" />
               </svg>
             </button>
-            <img 
-              src={activeItem.image} 
-              alt={activeItem.title} 
+            <img
+              src={activeItem.image}
+              alt={activeItem.title}
               className="w-full h-auto max-h-[80vh] object-contain"
             />
             <div className="mt-4 text-white">
@@ -194,7 +194,7 @@ const GalleryPage = () => {
           </div>
         </div>
       )}
-      
+
       <Footer />
     </div>
   );
