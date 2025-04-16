@@ -11,17 +11,17 @@ interface HeroSlide {
 
 const slides: HeroSlide[] = [
   {
-    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-2.jpg',
+    image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?q=80&w=1469&auto=format&fit=crop',
     title: 'Creating Magical Wedding Moments',
     subtitle: 'Exquisite Indian Wedding Decor & Design'
   },
   {
-    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-1.jpg',
+    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?q=80&w=1470&auto=format&fit=crop',
     title: 'Elegance in Every Detail',
     subtitle: 'Transforming Venues into Unforgettable Experiences'
   },
   {
-    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-3.jpg',
+    image: 'https://images.unsplash.com/photo-1604016553934-3e8b6b6ec29d?q=80&w=1470&auto=format&fit=crop',
     title: 'Timeless Beauty',
     subtitle: 'Where Your Wedding Dreams Come True'
   }
