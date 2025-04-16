@@ -39,25 +39,25 @@ const Services = () => {
     {
       title: 'Wedding Mandaps',
       description: 'Custom designed mandaps that blend tradition with your personal style.',
-      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-1.jpg',
+      image: 'https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
       link: '/services#mandaps'
     },
     {
       title: 'Reception Decor',
       description: 'Transform your reception venue with elegant and cohesive design elements.',
-      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-2.jpg',
+      image: 'https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1598&q=80',
       link: '/services#reception'
     },
     {
       title: 'Floral Design',
       description: 'Stunning floral arrangements that enhance the beauty of your celebration.',
-      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-3.jpg',
+      image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80',
       link: '/services#floral'
     },
     {
       title: 'Event Planning',
       description: 'Comprehensive planning services to ensure your event unfolds flawlessly.',
-      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-4.jpg',
+      image: 'https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80',
       link: '/services#planning'
     }
   ];
