@@ -39,25 +39,25 @@ const Services = () => {
     {
       title: 'Wedding Mandaps',
       description: 'Custom designed mandaps that blend tradition with your personal style.',
-      image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/services-1.jpg',
+      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-1.jpg',
       link: '/services#mandaps'
     },
     {
       title: 'Reception Decor',
       description: 'Transform your reception venue with elegant and cohesive design elements.',
-      image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/services-2.jpg',
+      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-2.jpg',
       link: '/services#reception'
     },
     {
       title: 'Floral Design',
       description: 'Stunning floral arrangements that enhance the beauty of your celebration.',
-      image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/services-3.jpg',
+      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-3.jpg',
       link: '/services#floral'
     },
     {
       title: 'Event Planning',
       description: 'Comprehensive planning services to ensure your event unfolds flawlessly.',
-      image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/services-4.jpg',
+      image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-4.jpg',
       link: '/services#planning'
     }
   ];

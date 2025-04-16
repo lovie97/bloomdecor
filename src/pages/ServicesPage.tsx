@@ -51,7 +51,7 @@ const ServicesPage = () => {
     {
       title: "Wedding Mandaps",
       description: "Our custom-designed mandaps are the centerpiece of any Indian wedding ceremony. We create stunning structures that blend traditional elements with your personal style, ensuring a beautiful and meaningful setting for your sacred vows.",
-      image: "https://images.unsplash.com/photo-1617401371361-47000b4feacc?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+      image: "https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-1.jpg",
       features: [
         "Custom design consultations to match your vision",
         "Integration of traditional and modern elements",
@@ -64,7 +64,7 @@ const ServicesPage = () => {
     {
       title: "Reception Decor",
       description: "Transform your reception venue into an elegant and immersive environment that reflects your style as a couple. Our reception decor services cover everything from table settings to lighting, creating a cohesive and beautiful atmosphere for your celebration.",
-      image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?ixlib=rb-4.0.3&auto=format&fit=crop&w=1598&q=80",
+      image: "https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-2.jpg",
       features: [
         "Complete venue transformation",
         "Custom table settings and centerpieces",
@@ -77,7 +77,7 @@ const ServicesPage = () => {
     {
       title: "Floral Design",
       description: "Flowers bring life, color, and fragrance to your celebration. Our floral design team creates stunning arrangements that enhance the beauty of your wedding day, from personal flowers to elaborate venue decorations.",
-      image: "https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=1470&q=80",
+      image: "https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-3.jpg",
       features: [
         "Personalized bridal bouquets and accessories",
         "Family and wedding party florals",
@@ -90,7 +90,7 @@ const ServicesPage = () => {
     {
       title: "Event Planning",
       description: "Our comprehensive planning services ensure that every aspect of your celebration is thoughtfully organized and flawlessly executed. We handle the logistics so you can focus on enjoying your special day.",
-      image: "https://images.unsplash.com/photo-1511795409834-ef04bbd61622?ixlib=rb-4.0.3&auto=format&fit=crop&w=1469&q=80",
+      image: "https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/service-4.jpg",
       features: [
         "Vendor coordination and management",
         "Timeline development and scheduling",

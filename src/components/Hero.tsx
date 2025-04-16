@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import { cn } from '@/lib/utils';
@@ -10,17 +11,17 @@ interface HeroSlide {
 
 const slides: HeroSlide[] = [
   {
-    image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/home-banner-1.jpg',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-2.jpg',
     title: 'Creating Magical Wedding Moments',
     subtitle: 'Exquisite Indian Wedding Decor & Design'
   },
   {
-    image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/banner-img-2-scaled.jpg',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-1.jpg',
     title: 'Elegance in Every Detail',
     subtitle: 'Transforming Venues into Unforgettable Experiences'
   },
   {
-    image: 'https://imaginedcor.studio/wp-content/uploads/2021/09/banner-img-3-scaled.jpg',
+    image: 'https://xn--imaginedcor-ibb.studio/wp-content/uploads/2023/03/home-banner-3.jpg',
     title: 'Timeless Beauty',
     subtitle: 'Where Your Wedding Dreams Come True'
   }
