@@ -11,17 +11,17 @@ interface HeroSlide {
 
 const slides: HeroSlide[] = [
   {
-    image: 'https://images.unsplash.com/photo-1519741347686-c1e0aadf4611?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://as2.ftcdn.net/v2/jpg/12/48/88/75/1000_F_1248887563_MjrFRx0C8zB3K98Yd2q4pjtmh1MkGIAv.jpg',
     title: 'Creating Magical Wedding Moments',
     subtitle: 'Exquisite Indian Wedding Decor & Design'
   },
   {
-    image: 'https://images.unsplash.com/photo-1604534293147-530c9a55a10c?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://i.pinimg.com/736x/84/7b/77/847b77a46c34314f773cfcc69e8998e4.jpg',
     title: 'Elegance in Every Detail',
     subtitle: 'Transforming Venues into Unforgettable Experiences'
   },
   {
-    image: 'https://images.unsplash.com/photo-1519225421980-715cb0215aed?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80',
+    image: 'https://i.pinimg.com/736x/71/bc/af/71bcaf405688cacfe5f691bb18b74ea4.jpg',
     title: 'Timeless Beauty',
     subtitle: 'Where Your Wedding Dreams Come True'
   }
@@ -64,13 +64,13 @@ const Hero = () => {
             currentSlide === index ? 'opacity-100' : 'opacity-0'
           )}
         >
-          <div 
+          <div
             className="absolute inset-0 bg-center bg-cover bg-no-repeat"
             style={{ backgroundImage: `url(${slide.image})` }}
           >
             <div className="absolute inset-0 bg-black/30"></div>
           </div>
-          
+
           <div className="absolute inset-0 flex items-center justify-center p-4">
             <div className="text-center text-white max-w-4xl animate-fade-in">
               <h1 className="heading-xl mb-4">{slide.title}</h1>
