@@ -11,7 +11,7 @@ interface HeroSlide {
 
 const slides: HeroSlide[] = [
   {
-    image: 'https://as2.ftcdn.net/v2/jpg/12/48/88/75/1000_F_1248887563_MjrFRx0C8zB3K98Yd2q4pjtmh1MkGIAv.jpg',
+    image: 'https://assets.architecturaldigest.in/photos/6698dfe275c33ed3023147d7/master/w_1600,c_limit/N4A01448.jpg.jpg',
     title: 'Creating Magical Wedding Moments',
     subtitle: 'Exquisite Indian Wedding Decor & Design'
   },
