@@ -16,12 +16,12 @@ const slides: HeroSlide[] = [
     subtitle: 'Exquisite Indian Wedding Decor & Design'
   },
   {
-    image: 'https://i.pinimg.com/736x/84/7b/77/847b77a46c34314f773cfcc69e8998e4.jpg',
+    image: 'https://thumbs.dreamstime.com/b/immerse-yourself-vibrant-energy-rich-cultural-heritage-hindu-wedding-ceremony-stunning-image-showcases-373578713.jpg',
     title: 'Elegance in Every Detail',
     subtitle: 'Transforming Venues into Unforgettable Experiences'
   },
   {
-    image: 'https://i.pinimg.com/736x/71/bc/af/71bcaf405688cacfe5f691bb18b74ea4.jpg',
+    image: 'https://m.media-amazon.com/images/I/61hVUvh2OtL._AC_SL1000_.jpg',
     title: 'Timeless Beauty',
     subtitle: 'Where Your Wedding Dreams Come True'
   }
